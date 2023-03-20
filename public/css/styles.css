@@ -1,0 +1,31 @@
+* {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url("/images/aura.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#custom-button-upload::-webkit-file-upload-button, #custom-button-submit {
+    border: 0px;
+    border-style: none;
+    background-color: green;
+    padding: 12px 6px;
+    color: white;
+}
